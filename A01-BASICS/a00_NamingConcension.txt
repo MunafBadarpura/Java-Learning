@@ -1,0 +1,17 @@
+in java we use naming convention yo make code more readable
+
+1. class and interfaces
+   => for this we use camelCase but first char is capitle
+   => Calc , ClassRoom
+
+2. variables and mothods
+   => for this we also use camelCase but first char is in small 
+   => marks, totalMarks, showMyMarks()
+
+3. constatns
+   => for this all char are capitle and if word is large then we use underscore(_) to merge
+   => PIE, BRAND, MY_DATA
+
+4. constructor
+  => for this first char is always capitle and same as class name
+  => if class name is Student then it is = Student()
