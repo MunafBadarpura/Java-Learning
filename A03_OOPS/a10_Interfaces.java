@@ -1,5 +1,6 @@
 interface chessPlayer{
-    void moves();
+    int age = 50;        // by default all variables in interface are final & static
+    void moves();   // by default all methods in interface are public abstract
 }
 
 class Queen implements chessPlayer {
