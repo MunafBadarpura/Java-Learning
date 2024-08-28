@@ -1,7 +1,7 @@
-class A extends Thread{
+class A implements Runnable{
     public void run(){
 
-        for(int i=0;i<50;i++){
+        for(int i=0;i<5;i++){
             System.out.println("Hi");
 
             try{
@@ -13,10 +13,10 @@ class A extends Thread{
     }
 }
 
-class B extends Thread{
+class B implements Runnable{
     public void run(){
 
-        for(int i=0;i<50;i++){
+        for(int i=0;i<5;i++){
             System.out.println("Hello");
         }
 
@@ -28,17 +28,17 @@ class B extends Thread{
     }
 }
 
-public class a01_MultipleThreads {
+public class a03_RunnableTHread {
     public static void main(String[] args) {
         A a = new A();
         B b = new B();
 
-        // Priority it just for suggestion to thread it dosent mean high periority thred exucute first
-        // a.setPriority(8); // we can set proprity between 1-10; and default is 5
-        // a.setPriority(Thread.MAX_PRIORITY); Thread.MAX_PRIORITY, MIN_PRIORITY, NORM_PRIORITY
+        // a.start(); it is not posiible in runnable thread
 
+        Thread t1 = new Thread(a);
+        Thread t2 = new Thread(b);
 
-        a.start();
-        b.start();
+        t1.start();
+        t2.start();
     }
 }
