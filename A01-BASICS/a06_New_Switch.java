@@ -15,7 +15,7 @@ public class a06_New_Switch {
 
         System.out.println(result);
         
-        // Old
+        // // Old
         // switch(day){
 
         //     case "Saturday", "Sunday":
