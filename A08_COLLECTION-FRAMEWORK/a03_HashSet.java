@@ -25,10 +25,10 @@ public class a03_HashSet {
         // For sorted order use Treeset
         Set<Integer> brr = new TreeSet<Integer>();
         brr.add(10);
-        brr.add(20);
-        brr.add(30);
         brr.add(40);
-
+        brr.add(30);
+        brr.add(20);
+        
         System.out.println("\nTreeSet : ");
         for(int n : brr){
             System.out.print(n + " ");

@@ -30,5 +30,6 @@ public class a01_ArrayList {
         arr.add(1, 15);
         System.out.println("after add : "+ arr); // 10, 15, 20, 400
 
+        arr.clear(); // clear all elems
     }
 }

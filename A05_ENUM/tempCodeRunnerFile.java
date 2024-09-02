@@ -1,1 +1,1 @@
-k
+t.println(myVar);
