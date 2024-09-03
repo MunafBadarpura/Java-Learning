@@ -23,7 +23,7 @@ public class a03_HashSet {
 
 
         // For sorted order use Treeset
-        Set<Integer> brr = new TreeSet<Integer>();
+        Set<Integer> brr = new TreeSet<>();
         brr.add(10);
         brr.add(40);
         brr.add(30);

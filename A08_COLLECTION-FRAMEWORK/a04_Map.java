@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class a04_Map {
     public static void main(String[] args) {
         Map<String, Integer> students = new HashMap<>();
-
         students.put("Sohil", 80);
         students.put("Munaf", 50);
         students.put("Hasan", 75);
@@ -52,5 +51,6 @@ public class a04_Map {
         for(String name : Students.keySet()){
             System.out.println(name + " : " + Students.get(name));
         }
+
     }
 }
