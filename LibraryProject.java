@@ -8,8 +8,10 @@ class Book{
         this.title = title;
         this.author = author;
         this.ISBN = ISBN;
-        this.isAvailable = isAvailable;
+        this.isAvailable = isAvailable; 
     }
+
+    
 
     // getter-setter
 
