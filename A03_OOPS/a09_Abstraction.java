@@ -1,6 +1,6 @@
 // we can not create objeact of abbstract class
 // we can define abstract method only in abstract class
-// we can not impliment abstarct mehod in base class 
+// we can not impliment abstarct mehod in own class 
 // it is compulsary to use abstract method in derived class
 
 abstract class Animal{

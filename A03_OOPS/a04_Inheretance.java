@@ -1,3 +1,7 @@
+static class AS{
+    
+}
+
 class Animal{
     int weight;
     
