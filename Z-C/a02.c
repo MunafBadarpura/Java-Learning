@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
 
+    int size = 10, arr[size];
+
     int a = 10;
     long b = 10;
     short c = 3;
