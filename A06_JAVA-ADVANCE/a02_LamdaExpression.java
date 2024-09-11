@@ -3,7 +3,6 @@
 @FunctionalInterface  // it means interface have only one method
 interface A{
     void show(int i);
-    // void show2();  it is not allowed
 }
 
 @FunctionalInterface  // it means interface have only one method

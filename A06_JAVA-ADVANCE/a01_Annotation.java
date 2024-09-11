@@ -2,7 +2,7 @@
 @FunctionalInterface  // it means interface have only one method
 interface Car{
     void show();
-    // void show2();  it is not allowed
+    // void show2();  //it is not allowed
 }
 
 class A{
