@@ -1,3 +1,7 @@
+// how to make function to lambda expression
+// 1. remove modifire, return type and method name 
+// 2. place arrow
+
 // lambda expression work with only FunctionalInterface
 
 @FunctionalInterface  // it means interface have only one method
@@ -13,6 +17,12 @@ interface B{
 public class a02_LamdaExpression {
     public static void main(String[] args) {
 
+        // A obj = new A(){
+        //     public void show(){
+        //         System.out.println("In A Show");
+        //     }
+        // };
+
         // lambda expression
         A obj = (int i) -> 
             {
@@ -26,11 +36,6 @@ public class a02_LamdaExpression {
         A obj3 = i ->  System.out.println("In A Show " + i);
 
         obj3.show(5);
-        // A obj = new A(){
-        //     public void show(){
-        //         System.out.println("In A Show");
-        //     }
-        // };
 
 
         // lambda expression with return 
