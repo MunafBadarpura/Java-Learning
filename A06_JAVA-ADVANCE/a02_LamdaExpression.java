@@ -54,3 +54,54 @@ public class a02_LamdaExpression {
 
     }
 }
+
+
+/*
+ * package Static_Keyword;
+
+@FunctionalInterface
+interface Car{
+    void show(int i);
+}
+
+@FunctionalInterface
+interface Car2{
+    int add(int i, int j);
+}
+
+public class a05 {
+    public static void main(String[] args) {
+        Car c = new Car() { 
+            public void show(int i) {
+                System.out.println("Hello");
+            }
+        };
+
+
+        Car c2 = (int i) -> {
+            System.out.println("fd");
+        };
+
+
+        Car c3 = (int i) -> System.out.println("fd");
+
+        Car c4 = i -> System.out.println("fd");
+
+
+        // WITH RETURN TYPE
+
+        Car2 c5 = new Car2() {
+            public int add(int i, int j){
+                return i+j;
+            }
+        };
+
+        Car2 c6 =  (int i, int j) -> {
+            return i+j;
+        };
+
+        Car2 c7 =  (i, j) ->  i+j;
+    }
+}
+
+ */

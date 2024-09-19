@@ -1,3 +1,14 @@
+// until java 1.7 we can use only public abstract in interface
+// after java 1.7 we can use dealut and static methods in interface
+
+// Default Methods
+// we can impliment in interface
+// override in any other class
+
+// Static Methods
+// we can impliment in interface
+// we can not override in any other class
+
 interface chessPlayer{
     int age = 50;        // by default all variables in interface are final & static
     void moves();   // by default all methods in interface are public abstract
