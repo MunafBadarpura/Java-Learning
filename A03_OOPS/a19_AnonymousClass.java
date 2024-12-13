@@ -14,6 +14,7 @@ abstract class Car{
 
 public class a19_AnonymousClass {
     public static void main(String[] args) {
+        
         A obj = new A(){
             void show(){
                 System.out.println("In Anonymous");
@@ -22,7 +23,7 @@ public class a19_AnonymousClass {
 
         obj.show();
 
-        Car bmw = new Car(){
+        Car bmw = new Car() {
             void drive(){
                 System.out.println("Driving in Anonymous");
             }

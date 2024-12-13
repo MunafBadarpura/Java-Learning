@@ -20,6 +20,9 @@ public class a18_InnerClass {
         A obj1 = new A();
         obj1.show();
 
+        // we access inner class like this = outerClass.innerClass; ex:A.B
+        // we can create inner object like this = outerClassObject.new innerClass();
+
         A.B obj2 = obj1.new B();
         obj2.show2();
 

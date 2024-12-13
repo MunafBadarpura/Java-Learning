@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A01-BASICS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A02_String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A03_OOPS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A05_ENUM" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A06_JAVA-ADVANCE" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A07_THREADS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A08_COLLECTION-FRAMEWORK" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/A09_GENERICS" isTestSource="false" packagePrefix="Generics" />
+      <sourceFolder url="file://$MODULE_DIR$/A10_JAVA8" isTestSource="false" packagePrefix="JAVA8" />
+      <sourceFolder url="file://$MODULE_DIR$/Z-C" isTestSource="false" packagePrefix="aaa" />
+      <sourceFolder url="file://$MODULE_DIR$/Z-JAVA" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

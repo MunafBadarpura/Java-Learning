@@ -36,6 +36,14 @@ class Chicken extends Animal{
 }
 public class a09_Abstraction {
     public static void main(String[] args) {
+        Animal animal = new Animal() {
+            @Override
+            void walk() {
+                System.out.println("Helllkjdk");
+            }
+        };
+        animal.walk();
+
         Horse h = new Horse();
         h.eat();
         h.walk();

@@ -2,6 +2,12 @@
 // variable value can not change
 // we can not inheret class
 
+// final variable initilize at :
+// At the time of declaration, or
+// In an initializer block, or
+// In the constructor.
+
+
 class A{
     final void show(){
         System.out.println("Hello from A");

@@ -14,6 +14,7 @@ interface chessPlayer{
     void moves();   // by default all methods in interface are public abstract
 }
 
+
 class Queen implements chessPlayer {
     public void moves(){
         System.out.println("up, down, left, right, diognal");
@@ -50,7 +51,10 @@ class Dog implements Animal, Human{
 
 
 public class a10_Interfaces {
+
     public static void main(String[] args) {
+
+
         Queen q = new Queen();
         q.moves();
 

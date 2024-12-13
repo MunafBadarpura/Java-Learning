@@ -1,16 +1,3 @@
-class a02_Constructor {
-
-    public static void main(String[] args) {
-        Student s1 = new Student();
-        Student s2 = new Student("Munaf");
-        Student s3 = new Student(19);
-        Student s4 = new Student(19, "Munaf");
-
-        Student s5 = new Student(s4); //copy constroctor
-        s5.age = 30;
-    }
-}
-
 class Student{
     String name;
     int age;
@@ -41,3 +28,17 @@ class Student{
     }
    
 }
+
+class a02_Constructor {
+
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        Student s2 = new Student("Munaf");
+        Student s3 = new Student(19);
+        Student s4 = new Student(19, "Munaf");
+
+        Student s5 = new Student(s4); //copy constroctor
+        s5.age = 30;
+    }
+}
+

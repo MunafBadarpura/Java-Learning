@@ -1,6 +1,13 @@
 // if we define static one time then it is same for all objects
 // static block run only one time when class load no matter how many objects we create
 
+
+// static keyword refers to class rather than object
+//1. static variable : if we define static variable then their value is same for all objects
+//2. static method : we can access static method with class
+//3. static block : static block run only one time when class load
+//4. static nested class : we can define nested class with static keyword
+
 class Student{
     int rollNo;
     int age;
