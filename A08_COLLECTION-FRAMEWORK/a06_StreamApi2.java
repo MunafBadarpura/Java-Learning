@@ -13,6 +13,7 @@ import java.util.stream.Stream;
 // count() = return long => returns number of elements
 // collect() = return collection which you store  => collects the elements of the stream into a collection
 // forEach() = return void
+// findFirst() = return optional class
 
 public class a06_StreamApi2 {
     public static void main(String[] args) {

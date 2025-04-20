@@ -10,7 +10,7 @@
 // we can not override in any other class
 
 interface chessPlayer{
-    int age = 50;        // by default all variables in interface are final & static
+    int age = 50;        // by default all variables in interface are public static final
     void moves();   // by default all methods in interface are public abstract
 }
 
@@ -59,5 +59,6 @@ public class a10_Interfaces {
         q.moves();
 
         System.out.println(Queen.age);
+
     }
 }

@@ -32,5 +32,16 @@ public class a06_StreamApi {
                     .reduce(0, (c,e) -> c+e);
         System.out.println("\n" + result);
 
+
+        // without reduce
+        int result2 = arr.stream()
+                    .filter(n -> n%2==0)
+                    .map(n -> n*2)
+                    .mapToInt(n -> n)
+                    .sum();
+
+        System.out.println(result2);
+
+
     }
 }
